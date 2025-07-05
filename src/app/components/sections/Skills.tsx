@@ -101,7 +101,7 @@ export default function Skills() {
             </motion.h3>
             
             <div className="space-y-6">
-              {skills.map((skill, index) => (
+              {skills.map((skill) => (
                 <div key={skill.name}>
                   <div className="flex justify-between mb-2">
                     <span className="font-medium">{skill.name}</span>
@@ -133,7 +133,7 @@ export default function Skills() {
             </motion.h3>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              {techStack.map((tech, index) => (
+              {techStack.map((tech) => (
                 <motion.div 
                   key={tech.name}
                   className="bg-gray-light dark:bg-gray-light/10 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow"
