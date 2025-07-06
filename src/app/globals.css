@@ -1,15 +1,15 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #1d1d1f;
-  --accent: #0066cc;
-  --accent-light: #2997ff;
-  --gray-light: #f5f5f7;
-  --gray: #86868b;
-  --gray-dark: #424245;
-  --success: #37d942;
-  --danger: #ff3b30;
+  --background: #0a0d16;
+  --foreground: #f2f5ff;
+  --accent: #00a8ff;
+  --accent-light: #00d2ff;
+  --gray-light: #1a2035;
+  --gray: #8195b0;
+  --gray-dark: #b2c7e0;
+  --success: #00c2ff;
+  --danger: #ff5e7a;
 }
 
 @theme inline {
@@ -24,13 +24,13 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
-    --background: #000000;
-    --foreground: #f5f5f7;
-    --gray-light: #1d1d1f;
-    --gray: #86868b;
-    --gray-dark: #a1a1a6;
+    --background: #0a0d16;
+    --foreground: #f2f5ff;
+    --gray-light: #1a2035;
+    --gray: #8195b0;
+    --gray-dark: #b2c7e0;
   }
 }
 
@@ -68,7 +68,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* 苹果风格按钮 */
+/* 按钮样式 */
 .apple-button {
   background-color: var(--accent);
   color: white;
@@ -77,8 +77,10 @@ html {
   font-size: 1rem;
   font-weight: 500;
   transition: all 0.2s ease;
+  box-shadow: 0 0 15px rgba(0, 168, 255, 0.5);
 }
 
 .apple-button:hover {
   background-color: var(--accent-light);
+  box-shadow: 0 0 20px rgba(0, 210, 255, 0.7);
 }

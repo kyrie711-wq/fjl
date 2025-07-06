@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "李明的个人网站 | 计算机专业学生",
-  description: "计算机专业学生李明的个人网站，展示项目作品、技能和个人成就",
+  title: "kyrie711的个人网站 | 网络安全爱好者",
+  description: "网络安全爱好者kyrie711的个人网站，展示项目作品、技能和个人成就",
 };
 
 export default function RootLayout({

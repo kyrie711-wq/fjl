@@ -6,22 +6,22 @@ import gsap from 'gsap';
 
 // 技能数据
 const skills = [
-  { name: 'JavaScript', level: 90 },
-  { name: 'Python', level: 85 },
-  { name: 'React', level: 88 },
-  { name: 'Node.js', level: 80 },
-  { name: 'TensorFlow', level: 75 },
-  { name: 'SQL', level: 78 },
-  { name: 'TypeScript', level: 82 },
-  { name: 'Java', level: 70 },
+  { name: 'Web渗透测试', level: 90 },
+  { name: 'OWASP Top 10', level: 88 },
+  { name: 'Python安全开发', level: 85 },
+  { name: '内网渗透', level: 82 },
+  { name: '应急响应', level: 80 },
+  { name: '安全设备运维', level: 78 },
+  { name: '安全产品开发', level: 75 },
+  { name: '安全合规审计', level: 72 },
 ];
 
 // 技术栈数据
 const techStack = [
-  { name: 'Web开发', items: ['React', 'Next.js', 'TailwindCSS', 'Node.js', 'Express'] },
-  { name: '人工智能', items: ['TensorFlow', 'PyTorch', 'Scikit-Learn', '自然语言处理', '计算机视觉'] },
-  { name: '云服务与部署', items: ['AWS', 'Docker', 'CI/CD', 'GitHub Actions', 'Vercel'] },
-  { name: '数据科学', items: ['数据分析', 'Pandas', 'NumPy', '数据可视化', 'Jupyter'] },
+  { name: 'Web安全及漏洞挖掘', items: ['SQL注入', 'XSS/CSRF', '文件上传', 'XXE', '逻辑漏洞', '漏洞扫描工具'] },
+  { name: '内网渗透与应急响应', items: ['横向移动', '权限提升', '域渗透', '应急处置', '日志分析', '溯源取证'] },
+  { name: '网络安全设备运维', items: ['WAF配置', '防火墙管理', 'IDS/IPS', '安全基线', 'SIEM部署', '安全策略'] },
+  { name: '新兴安全产品研发', items: ['安全工具开发', 'API安全', '容器安全', '云安全防护', '安全自动化', '零信任架构'] },
 ];
 
 export default function Skills() {
@@ -97,7 +97,7 @@ export default function Skills() {
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
             >
-              编程语言 & 框架
+              安全技术 & 能力
             </motion.h3>
             
             <div className="space-y-6">
@@ -129,7 +129,7 @@ export default function Skills() {
               className="text-2xl font-semibold mb-8"
               variants={itemVariants}
             >
-              技术栈
+              安全领域
             </motion.h3>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">

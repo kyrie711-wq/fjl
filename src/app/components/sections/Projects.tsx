@@ -4,39 +4,39 @@ import { useRef } from 'react';
 import { motion, useInView, Variants } from 'framer-motion';
 import Image from 'next/image';
 
-// 项目数据
+// 学习分享数据
 const projects = [
   {
     id: 1,
-    title: '智能助手AI',
-    description: '基于GPT-4的智能对话助手，能够回答问题、生成内容和辅助用户完成任务。使用React和Node.js构建，整合OpenAI API。',
-    image: 'https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=2020&auto=format&fit=crop',
-    tags: ['React', 'Node.js', 'OpenAI API', 'TailwindCSS'],
-    link: 'https://github.com/liming/ai-assistant',
+    title: 'Web安全及漏洞挖掘',
+    description: '分享Web应用安全测试方法、常见漏洞原理与利用技巧、安全防御策略等内容，包括OWASP Top 10漏洞详解和实战案例分析。',
+    image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=2070&auto=format&fit=crop',
+    tags: ['SQL注入', 'XSS', 'CSRF', '文件上传', '逻辑漏洞'],
+    link: 'https://github.com/kyrie711/web-security',
   },
   {
     id: 2,
-    title: '数据可视化平台',
-    description: '企业级数据分析与可视化平台，支持多种图表类型和数据源。基于Python后端和Vue.js前端，实现数据实时展示和分析。',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop',
-    tags: ['Python', 'Flask', 'Vue.js', 'D3.js', 'SQL'],
-    link: 'https://github.com/liming/data-visualization',
+    title: '内网渗透与应急响应',
+    description: '探讨内网渗透技术、权限提升方法、横向移动策略，以及安全事件应急处置、日志分析和安全威胁溯源等内容。',
+    image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2034&auto=format&fit=crop',
+    tags: ['内网横向移动', '权限提升', '应急处置', '日志分析', '溯源取证'],
+    link: 'https://github.com/kyrie711/pentest-incident-response',
   },
   {
     id: 3,
-    title: '图像识别系统',
-    description: '基于深度学习的图像识别系统，能够识别和分类物体、场景和人脸。使用TensorFlow和OpenCV实现，在医疗影像和安防领域有应用。',
-    image: 'https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?q=80&w=1974&auto=format&fit=crop',
-    tags: ['Python', 'TensorFlow', 'OpenCV', 'Deep Learning'],
-    link: 'https://github.com/liming/image-recognition',
+    title: '网络安全设备运维',
+    description: '分享防火墙、WAF、IDS/IPS等网络安全设备的部署、配置、优化和运维经验，帮助构建更强大的网络安全防线。',
+    image: 'https://images.unsplash.com/photo-1591405351990-4726e331f141?q=80&w=2070&auto=format&fit=crop',
+    tags: ['防火墙配置', 'WAF规则', 'IDS/IPS', 'SIEM', '安全基线'],
+    link: 'https://github.com/kyrie711/security-operations',
   },
   {
     id: 4,
-    title: '智慧校园App',
-    description: '为高校师生提供课表查询、成绩查询、校园通知等功能的移动应用。使用React Native开发，支持iOS和Android平台。',
-    image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop',
-    tags: ['React Native', 'Firebase', 'Node.js', 'MongoDB'],
-    link: 'https://github.com/liming/campus-app',
+    title: '新兴安全产品研发',
+    description: '研究云安全、容器安全、零信任架构等新兴安全领域，分享安全工具开发经验和最新安全技术研究成果。',
+    image: 'https://images.unsplash.com/photo-1607799279861-4dd421887fb3?q=80&w=2070&auto=format&fit=crop',
+    tags: ['安全工具开发', 'API安全', '容器安全', '零信任架构', '安全自动化'],
+    link: 'https://github.com/kyrie711/security-products',
   },
 ];
 
@@ -73,10 +73,10 @@ export default function Projects() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-3xl font-bold mb-2">项目作品</h2>
+          <h2 className="text-3xl font-bold mb-2">学习分享</h2>
           <div className="w-20 h-1 bg-accent mx-auto"></div>
           <p className="mt-4 text-gray-dark dark:text-gray max-w-2xl mx-auto">
-            以下是我近期开发的一些项目，展示了我在不同技术领域的能力和经验
+            以下是我在网络安全领域的学习笔记和研究成果分享，欢迎交流与探讨
           </p>
         </motion.div>
         
@@ -143,12 +143,12 @@ export default function Projects() {
           transition={{ delay: 0.8 }}
         >
           <a 
-            href="https://github.com/liming" 
+            href="https://github.com/kyrie711" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="apple-button"
           >
-            查看更多项目
+            查看更多分享
           </a>
         </motion.div>
       </div>
