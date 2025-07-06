@@ -131,7 +131,7 @@ export default function Hero() {
       };
       
       // 初始创建多个星星
-      animatedStarPositions.forEach((position, i) => {
+      animatedStarPositions.forEach((position) => {
         setTimeout(() => createStar(position), position.delay);
       });
     }
