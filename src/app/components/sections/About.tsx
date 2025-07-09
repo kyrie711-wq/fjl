@@ -53,7 +53,7 @@ export default function About() {
             <div className="absolute inset-0 bg-gradient-to-tr from-accent/30 to-accent-light/10 z-10"></div>
             <Image
               src="https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=1974&auto=format&fit=crop"
-              alt="kyrie711照片"
+              alt="kyrie照片"
               fill
               className="object-cover"
               priority
@@ -67,7 +67,7 @@ export default function About() {
             animate={isInView ? "visible" : "hidden"}
           >
             <motion.h3 variants={itemVariants} className="text-2xl font-bold mb-4">
-              kyrie711 <span className="text-accent">/ 信息安全专业</span>
+              kyrie <span className="text-accent">/ 信息安全专业</span>
             </motion.h3>
             
             <motion.p variants={itemVariants} className="text-gray-dark dark:text-gray mb-6">

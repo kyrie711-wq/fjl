@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "kyrie711的个人网站 | 网络安全爱好者",
-  description: "网络安全爱好者kyrie711的个人网站，展示项目作品、技能和个人成就",
+  title: "kyrie",
+  description: "网络安全爱好者kyrie的个人网站，展示网络安全技能和学习分享",
 };
 
 export default function RootLayout({

@@ -211,7 +211,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
           >
-            你好，我是kyrie711
+            你好，我是kyrie
           </motion.h2>
           
           <motion.h1 

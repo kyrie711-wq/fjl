@@ -12,7 +12,7 @@ const projects = [
     description: '分享Web应用安全测试方法、常见漏洞原理与利用技巧、安全防御策略等内容，包括OWASP Top 10漏洞详解和实战案例分析。',
     image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=2070&auto=format&fit=crop',
     tags: ['SQL注入', 'XSS', 'CSRF', '文件上传', '逻辑漏洞'],
-    link: 'https://github.com/kyrie711/web-security',
+    link: 'https://github.com/kyrie/web-security',
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const projects = [
     description: '探讨内网渗透技术、权限提升方法、横向移动策略，以及安全事件应急处置、日志分析和安全威胁溯源等内容。',
     image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2034&auto=format&fit=crop',
     tags: ['内网横向移动', '权限提升', '应急处置', '日志分析', '溯源取证'],
-    link: 'https://github.com/kyrie711/pentest-incident-response',
+    link: 'https://github.com/kyrie/pentest-incident-response',
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const projects = [
     description: '分享防火墙、WAF、IDS/IPS等网络安全设备的部署、配置、优化和运维经验，帮助构建更强大的网络安全防线。',
     image: 'https://images.unsplash.com/photo-1591405351990-4726e331f141?q=80&w=2070&auto=format&fit=crop',
     tags: ['防火墙配置', 'WAF规则', 'IDS/IPS', 'SIEM', '安全基线'],
-    link: 'https://github.com/kyrie711/security-operations',
+    link: 'https://github.com/kyrie/security-operations',
   },
   {
     id: 4,
@@ -36,7 +36,7 @@ const projects = [
     description: '研究云安全、容器安全、零信任架构等新兴安全领域，分享安全工具开发经验和最新安全技术研究成果。',
     image: 'https://images.unsplash.com/photo-1607799279861-4dd421887fb3?q=80&w=2070&auto=format&fit=crop',
     tags: ['安全工具开发', 'API安全', '容器安全', '零信任架构', '安全自动化'],
-    link: 'https://github.com/kyrie711/security-products',
+    link: 'https://github.com/kyrie/security-products',
   },
 ];
 
@@ -143,7 +143,7 @@ export default function Projects() {
           transition={{ delay: 0.8 }}
         >
           <a 
-            href="https://github.com/kyrie711" 
+            href="https://github.com/kyrie" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="apple-button"

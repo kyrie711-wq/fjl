@@ -45,7 +45,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <Link href="#home" className="font-semibold text-xl">
-              kyrie711
+              kyrie
             </Link>
           </div>
           

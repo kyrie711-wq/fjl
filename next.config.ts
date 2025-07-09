@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 // 替换为您的GitHub用户名
-const username = 'kyrie711-wq'; // 修改为正确的GitHub用户名
+const username = 'kyrie'; // 修改为正确的GitHub用户名
 const repoName = 'fjl'; // 修改为您的仓库名
 
 const nextConfig: NextConfig = {

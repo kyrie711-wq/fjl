@@ -17,9 +17,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pb-8 border-b border-gray/20">
           {/* 左侧 - 简介 */}
           <div>
-            <h3 className="text-xl font-bold mb-4">kyrie711</h3>
+            <h3 className="text-xl font-bold mb-4">kyrie</h3>
             <p className="text-gray-dark dark:text-gray mb-4">
-              网络安全爱好者，专注于网络安全与Web开发，致力于创造有意义的技术解决方案。
+              信息安全专业学生，专注于网络安全与渗透测试，致力于创造安全可靠的数字环境。
             </p>
             <div className="flex space-x-4">
               <a
@@ -106,9 +106,9 @@ export default function Footer() {
         </div>
         
         {/* 版权信息 */}
-        <div className="pt-8 text-center">
-          <p className="text-gray-dark dark:text-gray text-sm">
-            &copy; {new Date().getFullYear()} kyrie711. 保留所有权利.
+        <div className="mt-12 pt-8 border-t border-gray-light/10">
+          <p className="text-center text-gray">
+            &copy; {new Date().getFullYear()} kyrie. 保留所有权利.
           </p>
         </div>
       </div>
